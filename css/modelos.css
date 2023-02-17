@@ -22,4 +22,15 @@
     border: 2px solid #00ad50;
     border-top: 20px solid #00ad50;
     margin: 0 auto;
+    padding: 5px 10px;
+}
+
+@media screen and (max-width: 768px){
+    #modelo-3d-femura{
+        width: 100%;
+    }
+
+    .descricao{
+        width: 100%;
+    }
 }
