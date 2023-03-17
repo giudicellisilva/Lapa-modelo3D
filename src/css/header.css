@@ -1,0 +1,12 @@
+.header{
+    height: 30px;
+    background-color: var(--green);
+    color: #f8fafc;
+
+    padding: 20px;
+    margin-bottom: 20px;
+
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
