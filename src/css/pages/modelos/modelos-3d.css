@@ -17,6 +17,18 @@
     background-color: rgb(53, 53, 53);
 }
 
+#modelo-3d-femura-preto{
+    width: 90%;
+    height: 50vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    background-color: #ffffff;
+    border: 2px solid #00ad50;
+    border-bottom: none;
+}
+
 .descricao{
     width: calc(90% - 0.4px);
     border: 2px solid #00ad50;
