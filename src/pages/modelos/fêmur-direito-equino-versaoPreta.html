@@ -10,7 +10,8 @@
 </head>
 <body>
     <main class="main">
-        <model-viewer id="modelo-3d-femura-preto" src="../../modelos-3d/Fêmur Direito Equino/femurDireito-versãoPreta.glb"   camera-controls autoplay touch-action="pan-y">
+        <input class="inputcolor" type="color">
+        <model-viewer class="model" id="modelo-3d-femura-preto" src="../../modelos-3d/Fêmur Direito Equino/femurDireito-versãoPreta.glb"   camera-controls autoplay touch-action="pan-y">
             <div class="progress-bar hide" slot="progress-bar">
                 <div class="update-bar"></div>
             </div>
@@ -24,6 +25,6 @@
     </main>
     
     <script type="module" src="https://ajax.googleapis.com/ajax/libs/model-viewer/3.0.0/model-viewer.min.js"></script>
-    
+    <script src="../../js/mudacor.js"></script>
 </body>
 </html>
